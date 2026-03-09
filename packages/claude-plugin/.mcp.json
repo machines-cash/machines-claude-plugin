@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "machines": {
+      "type": "http",
+      "url": "https://mcp.machines.cash/mcp"
+    }
+  }
+}

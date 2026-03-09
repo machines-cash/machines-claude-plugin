@@ -1,0 +1,17 @@
+{
+  "name": "machines-plugins",
+  "owner": {
+    "name": "Machines",
+    "url": "https://machines.cash"
+  },
+  "metadata": {
+    "description": "Official Machines plugins for Claude."
+  },
+  "plugins": [
+    {
+      "name": "machines",
+      "source": "./packages/claude-plugin",
+      "description": "Manage Machines cards, balances, deposits, and safe card actions from Claude."
+    }
+  ]
+}

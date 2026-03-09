@@ -1,0 +1,24 @@
+{
+  "name": "machines",
+  "version": "1.0.0",
+  "description": "Manage Machines cards, balances, deposits, and safe card actions from Claude.",
+  "author": {
+    "name": "Machines",
+    "url": "https://machines.cash"
+  },
+  "homepage": "https://docs.machines.cash/claude-plugin",
+  "repository": "https://github.com/machines-cash/machines-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "machines",
+    "cards",
+    "payments",
+    "mcp",
+    "cli"
+  ],
+  "skills": [
+    "./skills/account",
+    "./skills/cli"
+  ],
+  "mcpServers": "./.mcp.json"
+}
