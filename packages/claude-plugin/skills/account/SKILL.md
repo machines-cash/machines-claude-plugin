@@ -21,11 +21,10 @@ Use the Machines MCP tools that ship with this plugin.
 - Transactions: `machines_user_read` with `group="transactions"`.
 
 ## Auth guidance
-- If sign-in is required, tell the user to open `/mcp`, select Machines, then finish the Machines browser sign-in and approve Claude access.
-- If the tool response includes a direct sign-in or verification URL, show it as a clickable markdown link.
-- If they are already signed in to Machines in their browser, say this is usually one tap.
+- If a Machines tool returns an authentication or sign-in error, tell the user: "Use Claude's Authenticate or Connect button for Machines, then ask again." Keep it to one short sentence.
+- If the tool response includes a verification URL, show it as a clickable markdown link.
 - If identity verification is required, tell them to finish verification in Machines, then come back and ask again.
-- Prefer browser-first guidance over terminal/API-key guidance.
+- Do not list numbered steps, explain the OAuth flow, or tell them to open `/mcp` unless they explicitly ask how to manage connectors.
 
 ## Errors
 - Keep errors short and actionable.
