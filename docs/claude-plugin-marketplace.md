@@ -39,7 +39,7 @@ From the repo root, confirm the marketplace harness works:
 ## Submission
 
 1. Confirm plugin metadata, docs links, and repository URLs are current.
-2. Verify the plugin MCP endpoint is `https://mcp.machines.cash/mcp?host=claude`.
+2. Verify the plugin MCP endpoint is `https://mcp.machines.cash/claude`.
 3. Submit through Claude:
    - `https://claude.ai/settings/plugins/submit`
    - `https://platform.claude.com/plugins/submit`
