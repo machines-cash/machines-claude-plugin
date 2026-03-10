@@ -22,6 +22,7 @@ Use the Machines MCP tools that ship with this plugin.
 
 ## Auth guidance
 - If sign-in is required, tell the user to open `/mcp`, select Machines, then finish the Machines browser sign-in and approve Claude access.
+- If the tool response includes a direct sign-in or verification URL, show it as a clickable markdown link.
 - If they are already signed in to Machines in their browser, say this is usually one tap.
 - If identity verification is required, tell them to finish verification in Machines, then come back and ask again.
 - Prefer browser-first guidance over terminal/API-key guidance.
